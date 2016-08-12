@@ -24,6 +24,7 @@
 @property (nonatomic, strong) NSString *access_token;
 @property (nonatomic, strong) NSString *refresh_token;
 @property (nonatomic, strong) NSString *token_type;
+@property (nonatomic, strong) NSString *msso;
 @property (nonatomic, strong) NSNumber *expires_in;
 /**
    @name MendeleyAPIOAuthCredentials the OAuth credentials as returned from the server

@@ -36,6 +36,7 @@
 #define kMendeleyTokenTypeKey               @"token_type"
 #define kMendeleyRefreshTokenKey            @"refresh_token"
 #define kMendeleyExpiryDateKey              @"expires_in"
+#define kMendeleyMobileSingleSignOn         @"msso"
 #define kMendeleyOAuthCredentialServiceName @"MendeleyOAuthCredentialService"
 #define kMendeleyOAuthClientCredentials     @"client_credentials"
 
