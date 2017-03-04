@@ -50,9 +50,7 @@
     NSString *keyValuePairs = [[self class] httpBodyStringFromParameters:parameters];
     if (nil != keyValuePairs && 0 < keyValuePairs.length)
     {
-        NSString *urlEncoded = [keyValuePairs
-                                stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
-        [mutableURLString appendString:urlEncoded];
+        [mutableURLString appendString:keyValuePairs];
     }
     return [NSURL URLWithString:mutableURLString];
 }
